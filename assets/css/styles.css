@@ -204,9 +204,7 @@ img {
   row-gap: 1rem;
 }
 
-.home_data {
-  align-self: center;
-}
+
 
 .home_title {
   font-size: var(--big-font-size);
