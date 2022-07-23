@@ -175,7 +175,7 @@ img {
 
 .nav_logo {
   color: var(--second-color);
-  font-size: var(--mb-3);
+  font-size: var(--mb-2);
 }
 
 .nav_toggle {
@@ -200,7 +200,7 @@ img {
 }
 
 .home {
-  height: calc(100vh - 3rem);
+  height: calc(100vh - 6rem);
   row-gap: 1rem;
 }
 
@@ -225,7 +225,7 @@ img {
 .home_social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--second-color);
 }
 

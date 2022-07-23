@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Keywords -->
+    <meta name="keywords" content="CalderonDev, Desarrollo Web Full-Stack, Yonathan Calderon, Programacion">
+    <meta name="description" content="Soy Yonathan Calderon, Desarrollador Web Full-Stack. En este sitio comparto mis proyectos desarrollados con Html5, Css3, Sss y Js para el Front-End y Php con framework Laravel para el Back-end">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/faviconCalderonDevFinal.ico" type="image/x-icon">
-    <title>CalderonDev</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>CalderonDev - Desarrollo Web</title>
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link
       rel="stylesheet"
@@ -816,11 +819,11 @@
           data-aos="fade-down"
           data-aos-delay="250"
         >
-          <a href="http://localhost/spaSite/public/" class="work_img" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Yonathan-Calderon?tab=repositories" class="work_img" target="_blank" rel="noopener noreferrer">
             <img src="./assets/img/work0.jpg" alt="CalderonDev - Proyecto SpaSite"/>
           </a>
 
-          <a href="http://localhost/viveroSite/public/" class="work_img">
+          <a href="https://github.com/Yonathan-Calderon?tab=repositories" class="work_img">
             <img src="./assets/img/ViveroElSol1.jpg" alt="CalderonDev - Proyecto ViveroSite" />
           </a>
 
@@ -836,37 +839,45 @@
         <h2 class="section-title" data-aos="fade-down">Contacto.</h2>
 
         <div class="contact_container bd_grid">
-          <form action="#" class="contact_form">
+          <form action="enviar.php" method="post" class="contact_form">
             <input
               type="text"
+              id="names"
+              name="nombre"
               placeholder="Nombre"
               class="control_input"
               data-aos="fade-right"
               data-aos-delay="250"
+              required
             />
             <input
-              type="mail"
+              type="email"
+              id="email"
+              name="correo"
               placeholder="Correo"
               class="control_input"
               data-aos="fade-right"
               data-aos-delay="300"
+              required
             />
             <textarea
-              name=""
-              id=""
+              name="mensaje"
+              id="mensaje"
               cols="0"
               rows="10"
               class="control_input"
               data-aos="fade-right"
               data-aos-delay="400"
+              required
             ></textarea>
 
             <input
-              type="button"
+              type="submit"
               value="Enviar"
               class="control_button button"
               data-aos="fade-right"
               data-aos-delay="450"
+              required
             />
           </form>
         </div>
