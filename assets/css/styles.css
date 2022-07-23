@@ -203,8 +203,9 @@ img {
   height: calc(100vh - 6rem);
   row-gap: 1rem;
 }
-
-
+.home_data {
+  align-self: center;
+}
 
 .home_title {
   font-size: var(--big-font-size);
